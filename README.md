@@ -4,6 +4,8 @@ This is a command line tool to decode ethereum tx data. The typical use case is 
 
 ## usage
 
+step0: git clone
+
 step1: use makefile to compile execute binary
 
 step2: ./tx-decoder -abi <abi-file-path> -input <tx-input>
