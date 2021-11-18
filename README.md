@@ -4,9 +4,9 @@ This is a command line tool to decode ethereum tx data. The typical use case is 
 
 ## Usage
 
-Step0: git clone
+Step0: `git clone git@github.com:huahuayu/go-tx-decoder.git && cd go-tx-decoder`
 
-Step1: use makefile to compile execute binary
+Step1: use makefile to compile executable binary
 
 Step2: specify the abi file and input then run with `./tx-decoder -abi <abi-file-path> -input <tx-input>`
 
