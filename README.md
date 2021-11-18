@@ -8,7 +8,7 @@ step0: git clone
 
 step1: use makefile to compile execute binary
 
-step2: ./tx-decoder -abi <abi-file-path> -input <tx-input>
+step2: specify the abi file and input then run with `./tx-decoder -abi <abi-file-path> -input <tx-input>`
 
 check the help with `./tx-decoder -h`
 
@@ -16,7 +16,7 @@ check the help with `./tx-decoder -h`
 
 take a random ethereum tx for example: https://etherscan.io/tx/0x032c85ba01bb33fdbbe5b9f18b9830be59b7941a407728c8a4cc822a6e5cde34
 
-```json
+```bash
 go run main.go -abi example/uniswapV2.json -input 0x7ff36ab5000000000000000000000000000000000000000000000009a887ca63ce5ed0ca00000000000000000000000000000000000000000000000000000000000000800000000000000000000000001c3e6999db30e784dbb94e055d35a4139f75c22100000000000000000000000000000000000000000000000000000000619608ee0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000c1bfccd4c29813ede019d00d2179eea838a67703
 ```
 
