@@ -37,3 +37,9 @@ Ouput:
     }
 }
 ```
+
+## Notes
+
+Q: How to decode transaction input into go struct?
+
+A: Check the test at `abi/decoder_test.go/TestAbi_Decode`
